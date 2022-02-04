@@ -1,0 +1,101 @@
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  background-color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  font-size: 18px;
+  font-family: "roboto";
+  font-weight: bold;
+  color: white;
+  border: 12px double #ffd127;
+}
+
+@font-face {
+  font-family: "ChineseDragon";
+  src: url("../fonts/ChineseDragon.ttf");
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "ChineseDragon";
+  color: white;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "shangai";
+  src: url("../fonts/shanghai.ttf");
+}
+
+h3 {
+  font-size: 38px;
+  font-family: "shangai";
+  color: white;
+}
+
+.centrartabla {
+  display: flex;
+  justify-content: center;
+}
+
+.nodot {
+  list-style: none;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.paginas {
+  background-color: rgb(247, 247, 247);
+  padding: 2px;
+  width: 15%;
+  margin: auto;
+  opacity: 0.92;
+}
+
+.subwrapper1 {
+  width: 35%;
+}
+
+.subwrapper2 {
+  width: 35%;
+}
+
+.subwrapper3 {
+  width: 35%;
+}
+
+.subwrapper4 {
+  width: 35%;
+}
+
+.subwrapper5 {
+  width: 35%;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.contenedortodo{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
